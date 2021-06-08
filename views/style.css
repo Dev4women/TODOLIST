@@ -1,8 +1,8 @@
 /* for whole container */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   }
   
   /* root tag for all element */
@@ -13,25 +13,17 @@
   
   /* main body part */
   body {
-    margin: 20px;
-    background: #0f2027; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #2c5364,
-      #203a43,
-      #0f2027
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #2c5364,
-      #203a43,
-      #0f2027
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 10px;
+    margin-left:200px;
+    margin-right: 200px;
+    background-color: white;
+   
   }
   
   /* h1 style */
   h1 {
     font-size: 3rem;
+    margin: 30px;
   }
   
   ul {
@@ -55,7 +47,7 @@
   
   /* styling all container */
   .container {
-    background-color: #eee;
+    background-color: rgb(240, 207, 235);
     border-radius: 5%;
     width: 60%;
     margin: 0 auto;
@@ -95,7 +87,7 @@
     border: 4px double #cccccc;
     color: #eeeeee;
     text-align: center;
-    font-size: 28px;
+    font-size: 30px;
     padding: 20px;
     width: 200px;
     -webkit-transition: all 0.5s;
@@ -181,4 +173,15 @@
   
   .todo__category-cleaning {
     background-color: green;
+  }
+  .btn-danger{
+    background-color: rgb(247, 17, 158);
+    font-size: 20px;
+  }
+  .btn-success{
+    background-color: rgb(247, 17, 158);
+    font-size: 15px; 
+  }
+  p{
+    margin: auto;
   }
