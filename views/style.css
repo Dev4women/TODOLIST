@@ -49,7 +49,7 @@
   .container {
     background-color: rgb(240, 207, 235);
     border-radius: 5%;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
     box-shadow: -1px -1px 6px 8px #888888;
   }
@@ -179,6 +179,7 @@
     font-size: 20px;
   }
   .btn-success{
+    margin-top: 30px;
     background-color: rgb(247, 17, 158);
     font-size: 15px; 
   }
